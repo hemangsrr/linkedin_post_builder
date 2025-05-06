@@ -19,7 +19,7 @@ To run this project, you'll need to have Python and some dependencies installed.
 - [Streamlit](https://streamlit.io/)
 - [LangChain](https://www.langchain.com/)
 - [OpenAI](https://openai.com/)
-- [requests](https://requests.readthedocs.io/en/master/)
+- [requests](https://requests.readthedocs.io/en/latest/)
 
 Install the dependencies using:
 
@@ -33,11 +33,14 @@ pip install -r requirements.txt
 First, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/LinkedInAgent.git
+git clone https://github.com/hemangsrr/linkedin_post_builder.git
 ```
 
 ### 2. Set Up Environment
-Create a virtual environment (optional, but recommended):
+You can set up a virtual environment using either `venv` or `conda` (optional, but recommended):
+
+#### Using `venv`:
+Create a virtual environment:
 
 ```bash
 python -m venv linkenv
@@ -55,6 +58,19 @@ On macOS/Linux:
 
 ```bash
 source linkenv/bin/activate
+```
+
+#### Using `conda`:
+Create a new conda environment:
+
+```bash
+conda create --name linkenv python=3.7
+```
+
+Activate the conda environment:
+
+```bash
+conda activate linkenv
 ```
 
 ### 3. Install Dependencies
